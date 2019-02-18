@@ -20,7 +20,6 @@ build/
 *.bak
 .vagrant/
 quantum/version.h
-.idea/
 CMakeLists.txt
 cmake-build-debug
 doxygen/
@@ -42,7 +41,9 @@ doxygen/
 .cproject
 .project
 .settings/
-.idea
+.idea/*.*
+!.idea/runConfigurations/**
+.idea/inspectionProfiles/**
 *.iml
 .browse.VC.db*
 *.stackdump
